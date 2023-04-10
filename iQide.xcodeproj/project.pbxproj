@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72CC6AB85BD2B4E70F1003FA /* Pods_iQide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C6C49F297505DB4CB12925 /* Pods_iQide.framework */; };
+		8A17042C29DDE538001A3374 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A17042B29DDE538001A3374 /* SwipeTableViewController.swift */; };
+		8A66844C29DCFACE001EBE23 /* SwipeCellKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8A66844B29DCFACE001EBE23 /* SwipeCellKit */; };
 		8AE97DD929CEC8D0009FC6BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE97DD829CEC8D0009FC6BB /* AppDelegate.swift */; };
 		8AE97DDB29CEC8D0009FC6BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE97DDA29CEC8D0009FC6BB /* SceneDelegate.swift */; };
-		8AE97DDD29CEC8D0009FC6BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE97DDC29CEC8D0009FC6BB /* ViewController.swift */; };
+		8AE97DDD29CEC8D0009FC6BB /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE97DDC29CEC8D0009FC6BB /* CategoryViewController.swift */; };
 		8AE97DE029CEC8D0009FC6BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE97DDE29CEC8D0009FC6BB /* Main.storyboard */; };
 		8AE97DE229CEC8D1009FC6BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE97DE129CEC8D1009FC6BB /* Assets.xcassets */; };
 		8AE97DE529CEC8D1009FC6BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE97DE329CEC8D1009FC6BB /* LaunchScreen.storyboard */; };
+		8AE97DEE29CECA62009FC6BB /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8AE97DED29CECA62009FC6BB /* RealmSwift */; };
+		8AE97DF029CECD0E009FC6BB /* QaydlarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE97DEF29CECD0E009FC6BB /* QaydlarViewController.swift */; };
+		8AE97DF529CECEE2009FC6BB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE97DF429CECEE2009FC6BB /* Category.swift */; };
+		8AE97DF729CED002009FC6BB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE97DF629CED002009FC6BB /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		309A42E59EDA88FB9D0C025E /* Pods-iQide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iQide.debug.xcconfig"; path = "Target Support Files/Pods-iQide/Pods-iQide.debug.xcconfig"; sourceTree = "<group>"; };
+		50C6C49F297505DB4CB12925 /* Pods_iQide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iQide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A17042B29DDE538001A3374 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		8AE97DD529CEC8D0009FC6BB /* iQide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE97DD829CEC8D0009FC6BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AE97DDA29CEC8D0009FC6BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8AE97DDC29CEC8D0009FC6BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AE97DDC29CEC8D0009FC6BB /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		8AE97DDF29CEC8D0009FC6BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AE97DE129CEC8D1009FC6BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AE97DE429CEC8D1009FC6BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AE97DE629CEC8D1009FC6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE97DEF29CECD0E009FC6BB /* QaydlarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QaydlarViewController.swift; sourceTree = "<group>"; };
+		8AE97DF429CECEE2009FC6BB /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		8AE97DF629CED002009FC6BB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B50CB667270368D2196B46EF /* Pods-iQide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iQide.release.xcconfig"; path = "Target Support Files/Pods-iQide/Pods-iQide.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE97DEE29CECA62009FC6BB /* RealmSwift in Frameworks */,
+				8A66844C29DCFACE001EBE23 /* SwipeCellKit in Frameworks */,
+				72CC6AB85BD2B4E70F1003FA /* Pods_iQide.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				8AE97DD729CEC8D0009FC6BB /* iQide */,
 				8AE97DD629CEC8D0009FC6BB /* Products */,
+				90EA8AD027095712EB34AB62 /* Pods */,
+				A53A417962D7CBDE01140D81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +77,59 @@
 			children = (
 				8AE97DD829CEC8D0009FC6BB /* AppDelegate.swift */,
 				8AE97DDA29CEC8D0009FC6BB /* SceneDelegate.swift */,
-				8AE97DDC29CEC8D0009FC6BB /* ViewController.swift */,
-				8AE97DDE29CEC8D0009FC6BB /* Main.storyboard */,
+				8AE97DF329CECECC009FC6BB /* Model */,
+				8AE97DF129CECE99009FC6BB /* Controller */,
+				8AE97DF229CECEB5009FC6BB /* View */,
 				8AE97DE129CEC8D1009FC6BB /* Assets.xcassets */,
 				8AE97DE329CEC8D1009FC6BB /* LaunchScreen.storyboard */,
 				8AE97DE629CEC8D1009FC6BB /* Info.plist */,
 			);
 			path = iQide;
+			sourceTree = "<group>";
+		};
+		8AE97DF129CECE99009FC6BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8AE97DDC29CEC8D0009FC6BB /* CategoryViewController.swift */,
+				8AE97DEF29CECD0E009FC6BB /* QaydlarViewController.swift */,
+				8A17042B29DDE538001A3374 /* SwipeTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8AE97DF229CECEB5009FC6BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8AE97DDE29CEC8D0009FC6BB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8AE97DF329CECECC009FC6BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8AE97DF429CECEE2009FC6BB /* Category.swift */,
+				8AE97DF629CED002009FC6BB /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90EA8AD027095712EB34AB62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				309A42E59EDA88FB9D0C025E /* Pods-iQide.debug.xcconfig */,
+				B50CB667270368D2196B46EF /* Pods-iQide.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A53A417962D7CBDE01140D81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50C6C49F297505DB4CB12925 /* Pods_iQide.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +139,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AE97DE929CEC8D1009FC6BB /* Build configuration list for PBXNativeTarget "iQide" */;
 			buildPhases = (
+				FA33182054269EF355C71A00 /* [CP] Check Pods Manifest.lock */,
 				8AE97DD129CEC8D0009FC6BB /* Sources */,
 				8AE97DD229CEC8D0009FC6BB /* Frameworks */,
 				8AE97DD329CEC8D0009FC6BB /* Resources */,
+				91E4D39963C30A7D3A21A151 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = iQide;
+			packageProductDependencies = (
+				8AE97DED29CECA62009FC6BB /* RealmSwift */,
+				8A66844B29DCFACE001EBE23 /* SwipeCellKit */,
+			);
 			productName = iQide;
 			productReference = 8AE97DD529CEC8D0009FC6BB /* iQide.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +182,10 @@
 				Base,
 			);
 			mainGroup = 8AE97DCC29CEC8D0009FC6BB;
+			packageReferences = (
+				8AE97DEC29CECA62009FC6BB /* XCRemoteSwiftPackageReference "realm-swift.git" */,
+				8A66844A29DCFACE001EBE23 /* XCRemoteSwiftPackageReference "SwipeCellKit.git" */,
+			);
 			productRefGroup = 8AE97DD629CEC8D0009FC6BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,14 +208,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		91E4D39963C30A7D3A21A151 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iQide/Pods-iQide-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iQide/Pods-iQide-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iQide/Pods-iQide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA33182054269EF355C71A00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iQide-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8AE97DD129CEC8D0009FC6BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AE97DDD29CEC8D0009FC6BB /* ViewController.swift in Sources */,
+				8AE97DDD29CEC8D0009FC6BB /* CategoryViewController.swift in Sources */,
+				8AE97DF529CECEE2009FC6BB /* Category.swift in Sources */,
 				8AE97DD929CEC8D0009FC6BB /* AppDelegate.swift in Sources */,
+				8A17042C29DDE538001A3374 /* SwipeTableViewController.swift in Sources */,
 				8AE97DDB29CEC8D0009FC6BB /* SceneDelegate.swift in Sources */,
+				8AE97DF729CED002009FC6BB /* Item.swift in Sources */,
+				8AE97DF029CECD0E009FC6BB /* QaydlarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +403,7 @@
 		};
 		8AE97DEA29CEC8D1009FC6BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309A42E59EDA88FB9D0C025E /* Pods-iQide.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +412,7 @@
 				DEVELOPMENT_TEAM = W4BDNH48SW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iQide/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -310,6 +433,7 @@
 		};
 		8AE97DEB29CEC8D1009FC6BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B50CB667270368D2196B46EF /* Pods-iQide.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,6 +442,7 @@
 				DEVELOPMENT_TEAM = W4BDNH48SW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iQide/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -358,6 +483,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8A66844A29DCFACE001EBE23 /* XCRemoteSwiftPackageReference "SwipeCellKit.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwipeCellKit/SwipeCellKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		8AE97DEC29CECA62009FC6BB /* XCRemoteSwiftPackageReference "realm-swift.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8A66844B29DCFACE001EBE23 /* SwipeCellKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A66844A29DCFACE001EBE23 /* XCRemoteSwiftPackageReference "SwipeCellKit.git" */;
+			productName = SwipeCellKit;
+		};
+		8AE97DED29CECA62009FC6BB /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AE97DEC29CECA62009FC6BB /* XCRemoteSwiftPackageReference "realm-swift.git" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8AE97DCD29CEC8D0009FC6BB /* Project object */;
 }
